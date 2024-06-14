@@ -14,33 +14,33 @@ proc-macro = true
 
 [dependencies]
 # bitcoin = "0.31.1"
-bitcoin = { git = "https://github.com/rust-bitcoin/rust-bitcoin", branch = "bitvm" }
+bitcoin = { git = "https://github.com/bitlayer-org/rust-bitcoin", branch = "bf-stark" }
 quote = "1.0.23"
 proc-macro-error = "1.0.4"
 lazy_static = "1.4.0"
 hex = "0.4.3"
 proc-macro2 = "1.0.51"
 
-[patch.crates-io.base58check]
-git = "https://github.com/rust-bitcoin/rust-bitcoin"
-branch = "bitvm"
+[patch.crates-io.base58ck]
+git = "https://github.com/bitlayer-org/rust-bitcoin.git"
+branch = "bf-stark"
 
 [patch.crates-io.bitcoin]
-git = "https://github.com/rust-bitcoin/rust-bitcoin"
-branch = "bitvm"
+git = "https://github.com/bitlayer-org/rust-bitcoin.git"
+branch = "bf-stark"
 
 [patch.crates-io.bitcoin_hashes]
-git = "https://github.com/rust-bitcoin/rust-bitcoin"
-branch = "bitvm"
+git = "https://github.com/bitlayer-org/rust-bitcoin.git"
+branch = "bf-stark"
 
 [patch.crates-io.bitcoin-internals]
-git = "https://github.com/rust-bitcoin/rust-bitcoin"
-branch = "bitvm"
+git = "https://github.com/bitlayer-org/rust-bitcoin.git"
+branch = "bf-stark"
 
 [patch.crates-io.bitcoin-io]
-git = "https://github.com/rust-bitcoin/rust-bitcoin"
-branch = "bitvm"
+git = "https://github.com/bitlayer-org/rust-bitcoin.git"
+branch = "bf-stark"
 
 [patch.crates-io.bitcoin-units]
-git = "https://github.com/rust-bitcoin/rust-bitcoin"
-branch = "bitvm"
+git = "https://github.com/bitlayer-org/rust-bitcoin.git"
+branch = "bf-stark"
