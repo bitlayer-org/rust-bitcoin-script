@@ -4,27 +4,27 @@ members = [
 ]
 
 [patch.crates-io.base58check]
-git = "https://github.com/rust-bitcoin/rust-bitcoin"
+git = "https://github.com/bitlayer-org/rust-bitcoin"
 branch = "bitvm"
 
 [patch.crates-io.bitcoin]
-git = "https://github.com/rust-bitcoin/rust-bitcoin"
+git = "https://github.com/bitlayer-org/rust-bitcoin"
 branch = "bitvm"
 
 [patch.crates-io.bitcoin_hashes]
-git = "https://github.com/rust-bitcoin/rust-bitcoin"
+git = "https://github.com/bitlayer-org/rust-bitcoin"
 branch = "bitvm"
 
 [patch.crates-io.bitcoin-internals]
-git = "https://github.com/rust-bitcoin/rust-bitcoin"
+git = "https://github.com/bitlayer-org/rust-bitcoin"
 branch = "bitvm"
 
 [patch.crates-io.bitcoin-io]
-git = "https://github.com/rust-bitcoin/rust-bitcoin"
+git = "https://github.com/bitlayer-org/rust-bitcoin"
 branch = "bitvm"
 
 [patch.crates-io.bitcoin-units]
-git = "https://github.com/rust-bitcoin/rust-bitcoin"
+git = "https://github.com/bitlayer-org/rust-bitcoin"
 branch = "bitvm"
 
 
@@ -38,5 +38,5 @@ license = "MIT"
 repository = "https://github.com/BitVM/rust-bitcoin-script"
 
 [dependencies]
-bitcoin = { git = "https://github.com/rust-bitcoin/rust-bitcoin", branch = "bitvm", features = ["rand-std"]}
+bitcoin = { git = "https://github.com/bitlayer-org/rust-bitcoin", branch = "bitvm", features = ["rand-std"]}
 script-macro = { path = "./macro" }
